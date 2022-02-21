@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "placommerce.web", "placommerce.web\placommerce.web.csproj", "{8899EBCA-148C-475D-988A-033CA02A8AA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C45ECF60-E810-42BA-BC61-D74428F24D3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D8D80827-D0DE-4015-9882-3E63076B01F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DBF08340-CF8F-4DF9-B520-72BD9A918F3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{D50AEF1F-C922-4816-900C-E65C9665936B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency", "Dependency", "{81BBD91B-35CF-44E7-8D86-46FDA681BFD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AD2BA0D9-E0ED-408E-AF08-5634DF6116D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BB5F87F2-D948-4800-99DB-FB8D356C89BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{4587B315-38B5-401D-9617-95F281BA82F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapper", "Mapper", "{228AB8C0-4743-41DD-90EA-A4DCF11B5D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placommerce.Business", "Placommerce.Business\Placommerce.Business.csproj", "{F9549992-1214-4CCE-9783-27E4DF085F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placommerce.Business.Interfaces", "Placommerce.Business.Interfaces\Placommerce.Business.Interfaces.csproj", "{D4994D18-37FC-4A5E-B96A-0CFF8A2EBF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placommerce.Auth", "Placommerce.Auth\Placommerce.Auth.csproj", "{067EA469-6B6E-410D-9A40-A60C5B7EDAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placommerce.Auth.Interfaces", "Placommerce.Auth.Interfaces\Placommerce.Auth.Interfaces.csproj", "{3FD36B1D-D216-49C2-82D9-0F81D28E4200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Placommerce.Core", "Placommerce.Core\Placommerce.Core.csproj", "{E9D96104-87C0-490C-880C-F50433A3CE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8899EBCA-148C-475D-988A-033CA02A8AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8899EBCA-148C-475D-988A-033CA02A8AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8899EBCA-148C-475D-988A-033CA02A8AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8899EBCA-148C-475D-988A-033CA02A8AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9549992-1214-4CCE-9783-27E4DF085F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9549992-1214-4CCE-9783-27E4DF085F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9549992-1214-4CCE-9783-27E4DF085F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9549992-1214-4CCE-9783-27E4DF085F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4994D18-37FC-4A5E-B96A-0CFF8A2EBF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4994D18-37FC-4A5E-B96A-0CFF8A2EBF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4994D18-37FC-4A5E-B96A-0CFF8A2EBF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4994D18-37FC-4A5E-B96A-0CFF8A2EBF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067EA469-6B6E-410D-9A40-A60C5B7EDAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067EA469-6B6E-410D-9A40-A60C5B7EDAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067EA469-6B6E-410D-9A40-A60C5B7EDAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067EA469-6B6E-410D-9A40-A60C5B7EDAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD36B1D-D216-49C2-82D9-0F81D28E4200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD36B1D-D216-49C2-82D9-0F81D28E4200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD36B1D-D216-49C2-82D9-0F81D28E4200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD36B1D-D216-49C2-82D9-0F81D28E4200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D96104-87C0-490C-880C-F50433A3CE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D96104-87C0-490C-880C-F50433A3CE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D96104-87C0-490C-880C-F50433A3CE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D96104-87C0-490C-880C-F50433A3CE55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8899EBCA-148C-475D-988A-033CA02A8AA7} = {C45ECF60-E810-42BA-BC61-D74428F24D3A}
+		{4587B315-38B5-401D-9617-95F281BA82F4} = {DBF08340-CF8F-4DF9-B520-72BD9A918F3B}
+		{228AB8C0-4743-41DD-90EA-A4DCF11B5D55} = {DBF08340-CF8F-4DF9-B520-72BD9A918F3B}
+		{F9549992-1214-4CCE-9783-27E4DF085F01} = {4587B315-38B5-401D-9617-95F281BA82F4}
+		{D4994D18-37FC-4A5E-B96A-0CFF8A2EBF9E} = {4587B315-38B5-401D-9617-95F281BA82F4}
+		{067EA469-6B6E-410D-9A40-A60C5B7EDAC9} = {D50AEF1F-C922-4816-900C-E65C9665936B}
+		{3FD36B1D-D216-49C2-82D9-0F81D28E4200} = {D50AEF1F-C922-4816-900C-E65C9665936B}
+		{E9D96104-87C0-490C-880C-F50433A3CE55} = {D8D80827-D0DE-4015-9882-3E63076B01F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AFEDA2F-3B72-4310-BC47-2AFFDC79AEC0}
+	EndGlobalSection
+EndGlobal
