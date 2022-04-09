@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pc.Business.Interfaces\Pc.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\Pc.Repository.Interface\Pc.Repository.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
