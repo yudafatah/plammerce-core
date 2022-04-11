@@ -71,5 +71,12 @@ namespace Pc.Repository.Implementation.Categories
             return Db.Category.ReplaceOneAsync(x => x.Id == entity.Id, entity, new ReplaceOptions { IsUpsert = true });
         }
         #endregion
+
+        public bool IsNameExist(string name)
+        {
+            var filter = Builders<Category>.Filter.Regex(c => c.Name, "/" + name + "/i");
+
+            return Db.Category.Find(filter).Any();
+        }
     }
 }

@@ -13,5 +13,6 @@ namespace Pc.Repository.Interface.Category
         Task Insert(Core.Entities.Category entity);
         Task Update(Core.Entities.Category entity);
         Task Upsert(Core.Entities.Category entity);
+        bool IsNameExist(string name);
     }
 }
