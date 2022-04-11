@@ -89,10 +89,12 @@ namespace Pc.Dependency
 
         public void RegisterServices()
         {
-            _container.AddSingleton<IBankDetailService, BankDetailService>();
         }
 
-        public void RegisterBusiness() { }
+        public void RegisterBusiness()
+        {
+            _container.AddSingleton<IBankDetailService, BankDetailService>();
+        }
 
         public void RegisterForClient()
         {

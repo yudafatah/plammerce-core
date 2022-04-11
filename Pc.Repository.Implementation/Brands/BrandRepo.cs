@@ -15,7 +15,7 @@ namespace Pc.Repository.Implementation.Brands
     {
         public BrandRepo(IMarketplacePlantConnection conn) : base(conn) { }
 
-        public Task<List<Core.Entities.Brand>> GetAllBrandVendorWise(int roleId, int vendorId)
+        public Task<List<Brand>> GetAllBrandVendorWise(int roleId, int vendorId)
         {
             if (roleId == 2)
             {
@@ -27,6 +27,13 @@ namespace Pc.Repository.Implementation.Brands
             return Db.Brand.Find(c => c.VendorId == vendorId && c.Status != (int)BrandStatusType.Deleted)
                 .SortByDescending(s => s.Id)
                 .ToListAsync();
+        }
+
+        public bool IsNameExist(string name)
+        {
+            var filter = Builders<Brand>.Filter.Regex(c => c.Name, "/" + name + "/i");
+
+            return Db.Brand.Find(filter).Any();
         }
 
         #region BASIC CRUD

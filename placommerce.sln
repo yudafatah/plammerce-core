@@ -51,7 +51,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pc.Repository.Implementatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pc.Repository.Interface", "Pc.Repository.Interface\Pc.Repository.Interface.csproj", "{D03C8A6A-EA0E-4786-AAED-D657DE056F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pc.Web.Adminn", "Pc.Web.Adminn\Pc.Web.Adminn.csproj", "{2B78CDCF-3E30-484F-B6A4-18A45142EA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pc.Web.Adminn", "Pc.Web.Adminn\Pc.Web.Adminn.csproj", "{2B78CDCF-3E30-484F-B6A4-18A45142EA68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,7 +12,7 @@ namespace Pc.Core.Entities
         [BsonId]
         public string Id { get; set; }
 
-        public int VendorId { get; set; }
+        public string VendorId { get; set; }
 
         [Required]
         [MaxLength(100)]
