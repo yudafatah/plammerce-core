@@ -59,5 +59,21 @@ namespace Pc.Repository.Implementation.Coupons
             return Db.Coupon.ReplaceOneAsync(x => x.Id == entity.Id, entity, new ReplaceOptions { IsUpsert = true });
         }
         #endregion
+
+        public Task<Coupon> ByCouponCode(string couponCode)
+        {
+            var currDate = DateTime.Now.Date;
+            return Db.Coupon.Find(x => x.CouponCode == couponCode
+            && currDate >= x.StartDate
+            && currDate <= x.EndDate
+            ).FirstOrDefaultAsync();
+        }
+
+        public bool IsNameExist(string name)
+        {
+            var filter = Builders<Coupon>.Filter.Regex(c => c.CouponName, "/" + name + "/i");
+
+            return Db.Coupon.Find(filter).Any();
+        }
     }
 }

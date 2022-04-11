@@ -13,5 +13,7 @@ namespace Pc.Repository.Interface.Coupons
         Task Insert(Coupon entity);
         Task Update(Coupon entity);
         Task Upsert(Coupon entity);
+        Task<Coupon> ByCouponCode(string couponCode);
+        bool IsNameExist(string name);
     }
 }

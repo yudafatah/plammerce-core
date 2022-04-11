@@ -13,5 +13,6 @@ namespace Pc.Repository.Interface.Brand
         Task Insert(Core.Entities.Brand entity);
         Task Update(Core.Entities.Brand entity);
         Task Upsert(Core.Entities.Brand entity);
+        bool IsNameExist(string name);
     }
 }
